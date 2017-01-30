@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+
+<style>
+body {
+font-family: 'Bree Serif', serif;
+ margin: 0 auto;
+ max-width: 600px;
+ background: #aaaaaa;
+ background-image: url("http://i.imgur.com/TrldTzo.png");
+}
+div {
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 12px;
+   }
+   h1 {
+ font-family: 'Sansita', sans-serif;
+ font-size: 80px;
+ text-align: center;
+ margin: 60px 0 0 0;
+ color: #232323;
+}
+p {
+  color: rgba(255,225,234,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,.2), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,.2), rgba(0,0,0,.4)
+  );
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 30px;
+  text-align: justify;
+  position: absolute;
+  font-size: 20px;
+  bottom: 0;
+  margin: 0;
+  height: 30px;
+ transition: height .5s;
+ -webkit-transition: height .5s;
+ -moz-transition: height .5s;
+}
+small {
+ opacity: 0;
+}
+.show-details p {
+  height: 150px;
+}
+.show-details small {
+  opacity: 1;
+}
+.maligarnet{
+  background-image: url("http://i.imgur.com/5vm2hc0.jpg");
+
+}
+.catseye{
+    background-image: url("http://i.imgur.com/azS2how.png");
+}
+.agate{
+    background-image: url("http://i.imgur.com/nja3bNv.jpg");
+}
+.price
+{
+  float: right;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  div {
+  margin: 20px 12px 0 12px;
+}
+p {
+font-size: 28px;
+line-height: 24px;
+}
+small {
+  font-size: 16px;
+}
+}
+<title>
+    PRIYANKA JWELLERY COLECTION
+</title>
+</style>
+</head>
+<body>
+  <h1> PM JWELLERY HUB</h1>
+<div class="maligarnet show-details">
+<p>MALI GARNET <span class="price"> $18000 </span></br>
+<small>Mali garnet, like rhodolite, is one of the hybrid garnets. Where rhodolite is a mixture of almandine and pyrope, Mali is a mixture of grossular and andradite garnets.
+The name Mali derives from the West African country of Mali where this garnet was first discovered in 1994. Mali is still the only source for this rare garnet.
+Though Mali garnet is predominantly grossular by composition, the presence of andradite is responsible for its superb dispersion or fire, reminiscent of the most
+ famous andradite garnet, demantoid. Get more details on pm.jwelleryhub.com</small>.
+ </p>
+ </div>
+ <div class="catseye show-details">
+
+<p>CAT'S EYE <span class="price"> $16000 </span><br/>
+<small>Actinolite cat's eye is a rare chatoyant gemstone variety of the mineral actinolite. It is often misleadingly referred to as "cat's eye jade" owing to its
+close association with nephrite jade, one of two forms of pure forms. Actinolite and nephrite belong to the same series of minerals ranging from iron-rich tremolite
+ to magnesium-rich ferro-actinolite amphiboles. Actinolite cat's eye gems are typically translucent and occur with jade-like green to yellowish color. Although
+ actinolite is quite common in occurrence, gem-quality material is especially rare and a must-have for gemstone and mineral collectors.
+
+Actinolite cat's eye gemstones are frequently worn in gemstone cabochon rings, and they are very well suited for all other types of gemstone jewelry, including
+gemstone earrings, pins, brooches, necklaces and gemstone pendants. Actinolite is often sought after for its metaphysical and therapeutic abilities, as it is believed
+ to be excellent for both physical and spiritual healing. Get more details on pm.jwelleryhub.com</small>.
+</p>
+</div>
+<div class="agate show-details">
+<p>AGATE <span class="price"> $15000 </span></br>
+<small>Agate is a variety of chalcedony that forms in concentric layers in a remarkable variety of colors and textures. The crystals vary in clarity from opaque to
+translucent to transparent. Agate quartz was highly valued as a talisman or amulet during ancient times, and to this day, are still one of the most popular jewelry
+gemstones, often seen in accessories from rings to pendants, to earrings and more.
+Agate geode gemstones appear to be nothing but ordinary rocks on the outside, but take a quick peek inside and you'll surely be amazed at the stunning growth and
+clusters of chalcedony quartz crystals. Geodes are rock cavities or vugs with internal crystal formations or concentric banding. Get details on pm.jwelleryhub.com
+</small>.
+</p>
+</div>
+<script>
+$('div').on('click', function() {
+ $(this).toggleClass('show-details');
+ });
+</script>
+</body>
+</html>
